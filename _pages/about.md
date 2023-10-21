@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "个人学术主页"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,43 +8,99 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
-A data-driven personal website
+个人简历
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+伍斌博士，浙江大学航空航天学院百人计划研究员，博导，国家级青年人才项目入选者。研究方向涉及固体力学多个领域，包括智能材料和结构力学、软物质力学、结构波动和振动分析、结构后屈曲分析和模拟、流固耦合及表界面效应等。主持或参与完成欧盟基金项目、国际博士后基金项目、国家自然科学基金项目等6项。长期从事<strong>智能(软)结构波动/振动和稳定性分析、力电可调声子晶体和超材料设计、多场耦合微纳米结构动力学分析</strong>等前沿领域的研究。在J Mech Phys Solids, J Fluid Mech, J Sound Vib, Int J Solids Struct, Smart Mater Struct 等固体力学、智能材料、声学领域权威期刊共发表SCI和EI学术论文35篇，其中，在力学顶级评论期刊Appl Mech Rev, 国际机械科学期刊Int J Mech Sci, 国内力学知名期刊《力学进展》合作发表综述论文各1篇；以第一或通讯作者共发表高水平论文20篇；在Springer发表英文专著章节1篇。Web of Science的ESI热点论文 (Top 0.1%) 1篇、高被引论文 (Top 1%) 3篇，在Appl Mech Rev发表的综述论文荣获2022年[<font color=Green>Lloyd Hamilton Donnell应用力学综述论文奖</font>](https://www.asme.org/publications-submissions/journals/asme-journal-program-awards/awards-lloyd-donnell-applied-mechanics-reviews)；Google Scholar总引用1200余次，H指数19。曾获2018年浙江大学优秀博士毕业生、2018年[<strong><font color=Green>中国力学学会优秀博士学位论文提名奖</font></strong>](https://cstam.org.cn/article/109057518522869271.html)等荣誉；2019年获得爱尔兰高威大学IRC博士后基金项目；2020年入选欧盟玛丽·居里学者人才计划项目。现担任先进材料和结构力学国际期刊 Mech Adv Mater Struct 和浙大学报 J Zhejiang Univ Sci A 的编委，同时担任10多个国际知名SCI期刊审稿人，应邀组织多次国际会议分会场，并曾多次受邀在国际会议和研讨会上作报告。
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
+Education / Professional Employment
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+- 09/2020-Present: Two-year MSCA Fellow, University of Galway, Ireland;
+- 10/2019-08/2020: IRC Postdoctoral Fellow, University of Galway, Ireland;
+- 07/2018-09/2019: Postdoctoral Fellow, Politecnico di Torino, Italy;
+- 09/2012-03/2018: PhD (Hons.), Zhejiang University, China;
+- 10/2014-10/2016: Joint Training PhD, University of Siegen, Germany;
+- ​09/2008-07/2012: BSc (Hons.), Chongqing University, China.
 
-Site-wide configuration
+
+Research Interests
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+- Wave Propagation & Vibration Analysis;
+- Mechanics of Smart Materials and Structures;
+- Tunable Phononic Crystals & Metamaterials;
+- Geometrical Nonlinearity & Post-buckling;
+- Fluid-structure Interaction;
+- Micro/nano Mechanics (especially surface and interface effects).
 
-Create content & metadata
+Selected Honors / Awards
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+- 2019: Nomination Award of Excellent PhD Thesis, Chinese Society of Theoretical and Applied Mechanics;
+- 2018: Excellent PhD Student, Zhejiang University;
+- 27/10/2013: Best Student Talk, Proceedings of SPAWDA;
+- 2012: Excellent Undergraduate & Graduation Thesis, Chongqing University;
+- ​2008-2010: National & National Endeavor Scholarships, Chinese Ministry of Education.​
 
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
+Funded / Participated Research Projects
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+​- ​Manipulating and tuning dynamic characteristics of soft electro-active materials: Modelling, simulations and experiments
+Role: Principal Investigator
+MSCA Fellow, European Union, 09/2020-08/2022.
+​- ​Irish Research Council Postdoctoral Fellowship
+Role: Principal Investigator
+Irish Research Council, 10/2019-08/2020.
+- Non-linear vibrations and control of advanced materials and structures
+Role: co-Investigator with E. Carrera and A. Pagani
+Postdoctoral Scheme, 07/2018-09/2019.
+- Performance optimization and manipulation of elastic waves in periodic soft materials and structures
+Role: Participant
+National Natural Science Foundation of China (NNSFC), 01/2016-12/2020.
+- Surface and interface effects on dynamic behaviors in multi-functional nanomaterials under biasing fields
+Role: Principal Investigator
+China Scholarship Council, 10/2014-10/2016.
+- Linear and nonlinear waves in soft electro-elastic solids and structures
+Role: Participant
+NNSFC, 01/2013-12/2016.
+- Dynamic characteristics and control mechanisms of layered electro-magnetic composite materials and structures
+Role: Participant
+​NNSFC, 01/2011-12/2014.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+Teaching / Supervision Activities
+------ 
+- 2016 Winter: Teaching assistant, Elastodynamics, Zhejiang University;
+- 2014 Spring: Teaching assistant, Theory of Elasticity, Zhejiang University;
+- 2013 Winter: Teaching assistant, Continuum Mechanics, Zhejiang University.
+- 2019: Co-supervisor (with Prof. Erasmo Carrera) of 1 PhD student;
+- 2018-Present: Co-supervisor (with Prof. Weiqiu Chen) of 3 PhD students;
+- ​2017/2019: Co-supervisor (with Prof. Weiqiu Chen) of 2 undergraduate students.
+
+
+Editorial Board
+------
+​- 2021: Contributing Editor of Mechanics of Advanced Materials and Structures
+
+Commissions of Trust
+------
+- 2019: Invited Contribution to Special Issue of International Journal of Non-Linear Mechanics on “Nonlinear Theory of Electro- and Magneto-Elasticity”;
+- 2019: Invited Contribution to Special Issue of Journal of Mechanics and Physics of Solids in honour of Davide Bigoni;
+- ​2014: Invited Contribution to Special Issue of Archive of Applied Mechanics on “Gérard A. Maugin: engineering scientist. Celebrating his 70th anniversary”.
+​
+- ​07/2022: Invited Presentation — “Tunable topological Interface states in soft (dielectric) phononic crystals” [11th ESMC, Galway, Ireland];
+- ​02/2021: Invited Presentation — “Tunable dynamic characteristics of soft electro-active materials” [Virtual Conference of AIDAA Educational Series and Academy – Challenges and Opportunities for the Aerospace Frontier Research];
+- ​10/2019: Invited Presentation — “Geometrical nonlinear analysis of shells by Carrera Unified Formulation” [2nd ICMAMS, Nanjing, China];
+- ​06/2019: Invited Presentation — “Large-deflection and post-buckling of flexible composite structures by CUF” [Workshop on Virtual Manufacturing and Testing of Composites, Turin, Italy];
+- ​05/2017: Invited Presentation — “Tunable Bragg band gaps in a compressible dielectric elastomer cylinder” [Workshop on Phononic Crystals and Acoustic Metamaterials, Beijing, China].
+
+Organisation of International Conferences  
+------
+- 2021: Co-organizer of the Topic Session on “Nonlinear Problems in Aerospace Structures”, ASME IMECE2021 Virtual Conference.​
+- 2019-2021: Co-organizer of the Mini-symposium on “Computational Acoustics and Elastodynamics in Solids and Structures”, 10-12th ICCM2019-2021, Singapore.
+- 2019: Member of the Local Organizing Committee, 2nd ICMAMS, Nanjing, China.
+- 2019: Co-organizer of the Parallel Session on “Fluid Solid Interaction”, 2nd ICMAMS, Nanjing, China.
+
+Peer-Review for Journals
+------
+International Journal of Solids and Structures​; Philosophical Transactions of the Royal Society A; International Journal of Mechanical Sciences; Mechanics of Advanced Materials and Structures; Mathematics and Mechanics of Solids; International Journal of Mechanics & Materials in Design; European Journal of Mechanics-A/Solids; Applied Mathematics and Mechanics (English Edition); International Journal of Non-Linear Mechanics; Acta Mechanica Solida Sinica; International Journal of Structural Stability and Dynamics; Journal of Vibration Engineering & Technologies; Meccanica; Engineering Computations.
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+[<strong><font color = Blue> Please Refer to my HomePage of Zhejiang University</font></strong>](https://person.zju.edu.cn/BinWu)
